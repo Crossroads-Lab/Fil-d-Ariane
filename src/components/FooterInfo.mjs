@@ -47,7 +47,7 @@ const createTemplate = () => {
   }
 
   img {
-    filter: saturate(0) brightness(2);
+    filter: saturate(0) brightness(0) invert(1);
   }
   `;
 
