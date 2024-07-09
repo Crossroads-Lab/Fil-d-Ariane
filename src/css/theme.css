@@ -1,0 +1,10 @@
+@import url('https://crossroads-lab.github.io/Design-System/css/index.css');
+
+/* Theme */
+:root {
+  --color: var(--light);
+  --background: var(--blueberry, black);
+  --spash-screen-background: black;
+  --button-background: var(--blue-cyan-diagonal);
+  --button-hover-color: var(--blue);
+}

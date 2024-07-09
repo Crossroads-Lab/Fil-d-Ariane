@@ -1,0 +1,66 @@
+@import './theme.css';
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-half);
+  padding: var(--padding-2x) var(--padding-width-90-percent);
+  width: 100%;
+  color: var(--color);
+  background: var(--background);
+}
+
+.section.light {
+  background: var(--light);
+  color: var(--dark);
+}
+
+.section.dark {
+  background: var(--gray-2);
+  color: var(--light);
+}
+
+.section > legend *,
+.section > legend {
+  text-transform: capitalize;
+  font-size: var(--size-14-16);
+  font-weight: 500;
+}
+
+.section > h2 *,
+.section > h2 {
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: var(--size-40-64);
+}
+
+.section > h2,
+.section > legend,
+.section > p,
+.section > ul,
+.section > ul li {
+  text-wrap: balance;
+  text-align: center;
+}
+
+.section > ul {
+  padding: 0;
+  margin: 0;
+  list-style-position: none;
+}
+
+.section > p {
+  line-height: 150%;
+  font-size: var(--size-16-18);
+}
+
+.section > ul li {
+  padding-top: var(--text-gap);
+  font-size: var(--size-16-18);
+}
+
+.section > ul li:first-of-type {
+  padding-top: 0;
+}

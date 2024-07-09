@@ -1,0 +1,41 @@
+@import url('https://crossroads-lab.github.io/Design-System/css/index.css');
+
+/* Top navbar */
+top-navbar {
+  display: block;
+  position: fixed;
+  width: 100%;
+  --_padding-top: calc(var(--safearea-top) + var(--padding-half));
+  min-height: calc(var(--size-48-56) + var(--_padding-top));
+  display: flex;
+  align-items: center;
+  padding: 0 var(--padding-horizontal);
+  opacity: 1 !important;
+  z-index: calc(var(--z-index-max) - 1);
+
+  /* When scrolling */
+  background: #000000D0;
+  --_blur: 15px;
+  -webkit-backdrop-filter: blur(var(--_blur));
+  -moz-backdrop-filter: blur(var(--_blur));
+  backdrop-filter: blur(var(--_blur));
+}
+
+top-navbar h1 {
+  padding: 0;
+  margin: 0;
+}
+
+body[data-scrolling='true'] top-navbar,
+body[data-scrolling='false'] top-navbar {
+  transition: 1s;
+}
+
+body:not([data-scrolling='true']) top-navbar {
+  padding-top: var(--_padding-top);
+  -webkit-backdrop-filter: none;
+  -moz-backdrop-filter: none;
+  backdrop-filter: none;
+  filter: none;
+  background: none;
+}

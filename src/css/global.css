@@ -1,0 +1,19 @@
+@import url('https://crossroads-lab.github.io/Design-System/css/index.css');
+@import './theme.css';
+
+:root {
+  --padding-horizontal: var(--padding-width-90-percent);
+  --padding-vertical: var(--padding-2x);
+}
+
+/* General html elements */
+html, body {
+  background: var(--background);
+}
+
+html, body, * {
+  font-family: var(--font-family-rounded);
+  /* color: var(--dark); */
+  overflow-x: hidden !important;
+  /* scrollbar-gutter: stable; */
+}
