@@ -41,7 +41,7 @@ export const FRONT_PAGE_SLIDE_SHOW_CONTENT = [
     link: 'Contact us',
     background: 'background-4.webp',
     animation: 'zoom-out',
-    origin: 'left',
+    origin: 'bottom',
     href: '#footer-info'
   },
   {
@@ -50,7 +50,8 @@ export const FRONT_PAGE_SLIDE_SHOW_CONTENT = [
     link: 'Contact us',
     background: 'background-5.webp',
     animation: 'zoom-out',
-    origin: 'top',
+    origin: 'right',
+    position: 'top right',
     href: '#footer-info'
   }
 ];
