@@ -42,6 +42,7 @@ export const FRONT_PAGE_SLIDE_SHOW_CONTENT = [
     background: 'background-4.webp',
     animation: 'zoom-out',
     origin: 'bottom',
+    position: 'top right',
     href: '#footer-info'
   },
   {
@@ -51,7 +52,7 @@ export const FRONT_PAGE_SLIDE_SHOW_CONTENT = [
     background: 'background-5.webp',
     animation: 'zoom-out',
     origin: 'right',
-    position: 'top right',
+    position: 'top',
     href: '#footer-info'
   }
 ];
