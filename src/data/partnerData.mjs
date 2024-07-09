@@ -1,5 +1,11 @@
 export const PARTNERS = [
   {
+    src: 'assets/partners/inovexus.svg',
+    name: 'Inovexus',
+    href: 'https://www.inovexus.com/',
+    description: 'The Global VC Club-Accelerator'
+  },
+  {
     src: 'assets/partners/invyo.svg',
     name: 'Invyo',
     href: 'https://www.invyo.io/',
@@ -16,12 +22,6 @@ export const PARTNERS = [
     name: 'Invyo',
     href: 'https://www.potloc.com/',
     description: 'Surveys at the speed of consulting'
-  },
-  {
-    src: 'assets/partners/inovexus.svg',
-    name: 'Inovexus',
-    href: 'https://www.inovexus.com/',
-    description: 'The Global VC Club-Accelerator'
   },
   {
     src: 'assets/partners/crossroads.svg',
