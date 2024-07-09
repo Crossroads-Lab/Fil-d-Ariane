@@ -19,7 +19,7 @@ export const PARTNERS = [
   },
   {
     src: 'assets/partners/potloc.svg',
-    name: 'Invyo',
+    name: 'Potloc',
     href: 'https://www.potloc.com/',
     description: 'Surveys at the speed of consulting'
   },
@@ -34,6 +34,12 @@ export const PARTNERS = [
     name: 'The Openside Flanker',
     href: 'https://theopensideflanker.com/',
     description: 'The player who converts your first try'
+  },
+  {
+    src: 'assets/partners/criteo.svg',
+    name: 'Criteo',
+    href: 'https://www.criteo.com/',
+    description: 'Advertising company that provides online display advertisements'
   }
 ];
 
