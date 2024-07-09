@@ -16,7 +16,7 @@ partner-info > a > img {
   max-height: var(--size-48-64);
   object-fit: contain;
   z-index: 0;
-  filter: brightness(2) saturate(0);
+  filter: brightness(0) invert(1);
 }
 
 partner-info > a > div {
