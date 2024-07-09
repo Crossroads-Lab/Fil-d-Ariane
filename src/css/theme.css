@@ -5,6 +5,6 @@
   --color: var(--light);
   --background: var(--blueberry, black);
   --spash-screen-background: black;
-  --button-background: var(--ocean-teal-diagonal);
-  --button-hover-color: var(--cyan);
+  --button-background: var(--blue1-ocean-diagonal);
+  --button-hover-color: var(--teal);
 }
