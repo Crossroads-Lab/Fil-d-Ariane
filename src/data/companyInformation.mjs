@@ -10,13 +10,13 @@ export const SOCIALS = COMPANY_INFORMATION.SOCIALS = [
     value: 'LinkedIn',
     href: 'https://www.linkedin.com/company/the-fil-d-ariane',
   },
-  {
-    value: 'Instagram',
-    href: '',
-  },
+  // {
+  //   value: 'Instagram',
+  //   href: '',
+  // },
   {
     value: 'x',
-    href: '',
+    href: 'https://x.com/thefildariane',
   }
 ];
 export const LOGO = COMPANY_INFORMATION.LOGO = 'assets/logos/logo-full-white.svg';
